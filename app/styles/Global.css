@@ -1,0 +1,241 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e1e1e1;
+  color :#606060;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  height: 100%;
+}
+
+h2{
+  color :#383838;
+}
+p{
+  color :#606060;
+}
+
+.Container{
+  width: 100%;
+  margin: auto;
+}
+.Header{
+  width: 100%;
+  height: 60px;
+  background-color: #3C3C3C;
+  border-bottom: 10px solid #921515;
+  transition: 1s;
+}
+
+.Nav{
+  float: right;
+  margin-right: 50px;
+}
+
+.Nav a {
+  color: inherit;
+  text-decoration: none;
+  width: 100px;
+  height: 51px;
+}
+
+.Nav li {
+  border-left: .2em solid #303030;
+  float: left;
+  list-style: none;
+  text-align: center;
+  font-family: "open sans","segoe ui",helvetica,sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 21px;
+  padding-bottom: 24px;
+  height: 15px;
+  transition: 1s;
+}
+.Nav li:hover{
+  background-color: #8F3A3A;
+}
+
+.LastBorder {
+  border-right: .2em solid #303030;
+}
+
+.Current {
+  background-color: #504D4D;
+}
+
+.Logo {
+  margin: 0 20px;
+  width: 180px;
+  height: 60px;
+  background-image: url('../images/logo2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.ContentWrap{
+  width: 30%;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid rgba(34, 34, 34, 0.29);
+}
+
+.ContentText{
+  text-align: center;
+}
+
+.ContentText p{
+  margin-top: 20px;
+}
+
+.Footer{
+  width: 100%;
+  border-top: 10px solid #921515;
+  background-color: #3C3C3C;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+}
+
+.FooterWrap{
+  margin: auto;
+  width: 34%;
+}
+
+.BrowseContent{
+  width: 70%;
+  height: auto;
+  margin: 20px auto;
+  position: relative;
+}
+
+.ResWrap{
+  float: left;
+  width:160px;
+  min-height: 100%;
+  background-color: #F1F1F1;
+  border: 1px solid rgba(34, 34, 34, 0.29);
+  border-bottom: 5px solid #B9B9B9;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.ResWrap:hover{
+  border-bottom: 5px solid rgba(148, 15, 15, 0.9);
+}
+
+.ResHeader{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(218, 218, 219);
+}
+
+.ResHeader img{
+  height: 120px;
+  padding: 10px;
+  margin: 9px;
+  width: 124px;
+}
+
+.Search{
+  margin: auto;
+  height: 60px;
+  margin-bottom:20px;
+}
+
+.Search input{
+  text-align: center;
+  color: #606060;
+  font-size:32px;
+  border: none;
+  border-bottom: 5px  solid #921515;
+  border-radius: 5px;
+  width: 95%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.Search input:focus{
+  outline: none;
+  border-bottom: 5px solid #255c73;
+}
+
+.Padding{
+  padding-bottom:20px;
+}
+
+.Selected{
+  width: 100%;
+  height: 20px;
+  background-color: #3C3C3C;
+  color: #fff;
+  text-align: center;
+  font-family: "open sans","segoe ui",helvetica,sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.SelectedBorder{
+  border-bottom: 5px solid #921515;
+}
+
+.ResContent{
+  float: left;
+  text-align: center;
+  width: 92%;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid rgba(34, 34, 34, 0.29);
+  margin-bottom: 50px;
+  font-family: "Open Sans", "trebuchet ms", arial, sans-serif;
+}
+
+#Item-1{
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 34px;
+  text-shadow: -1px 1px 0 rgba(0, 0, 0, 0.15);
+}
+#Item-2{
+  color: rgba(92, 82, 40, 0.61);
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+.MainImg{
+  margin-top: 20px;
+  max-height: 400px;
+  max-width: 600px;
+  min-height: 100px;
+  min-width: 100px;
+  margin: 5px auto;
+}
